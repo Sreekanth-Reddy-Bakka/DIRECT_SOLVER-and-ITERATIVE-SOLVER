@@ -1,0 +1,5 @@
+M: 1000 Time: 0.107846 seconds, error: 6.64748e-12
+M: 2000 Time: 0.462653 seconds, error: 2.95035e-11
+M: 3000 Time: 1.52376 seconds, error: 1.15337e-10
+M: 4000 Time: 3.18311 seconds, error: 1.35337e-09
+M: 5000 Time: 6.17911 seconds, error: 2.035e-10

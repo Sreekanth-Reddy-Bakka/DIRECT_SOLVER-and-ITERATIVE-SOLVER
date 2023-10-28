@@ -1,0 +1,17 @@
+# a simple 5*5 symetric band matrix, with bandwidth of 2
+# about the format of the file :
+# All the first lines that start with # are ignored by the reading code,
+# And are used for documentation or comment.
+# After the initial comment block, one must read to integer that correspond to the number of line (m) and columns (n) of the matrix.
+# Then all the entries of the matrix are given row by row. :
+#  a(0,0)   a(0,1)   ... a(0,n-1) 
+#  a(1,0)   a(1,1)   ... a(1,n-1)
+#  :
+#  :
+#  a(m-1,0) a(m-1,1) ... a(m-1, n-1)
+5 5 
+50. 2. 3. 0. 0.
+2. 50. 6. 7. 0.
+3. 6. 50. 9. 8.
+0. 7. 9. 50. 10.
+0. 0. 8. 10. 50.
