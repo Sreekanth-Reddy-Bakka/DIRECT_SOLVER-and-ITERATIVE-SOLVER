@@ -1,0 +1,14 @@
+# a simple 2*3 matrix.
+# about the format of the file :
+# All the first lines that start with # are ignored by the reading code,
+# And are used for documentation or comment.
+# After the initial comment block, one must read to integer that correspond to the number of line (m) and columns (n) of the matrix.
+# Then all the entries of the matrix are given row by row. :
+#  a(0,0)   a(0,1)   ... a(0,n-1) 
+#  a(1,0)   a(1,1)   ... a(1,n-1)
+#  :
+#  :
+#  a(m-1,0) a(m-1,1) ... a(m-1, n-1)
+2 3
+1. 2. 3.
+4. 5. 6.
