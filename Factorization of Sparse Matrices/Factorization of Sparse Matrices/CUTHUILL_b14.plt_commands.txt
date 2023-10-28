@@ -1,0 +1,14 @@
+# CUTHUILL_b14.plt_commands.txt
+#
+# Usage:
+#  gnuplot < CUTHUILL_b14.plt_commands.txt
+#
+unset key
+set term jpeg
+set output 'CUTHUILL_b14.plt.jpg'
+set size ratio -1
+set xlabel '<--- J --->'
+set ylabel '<--- I --->'
+set title '815206 nonzeros for "CUTHUILL_b14.plt"'
+set timestamp
+plot [y=0:1805] [x=1805:0] 'CUTHUILL_b14.plt_data.txt' with points pt 0

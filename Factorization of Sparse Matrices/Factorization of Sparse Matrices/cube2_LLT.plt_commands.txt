@@ -1,0 +1,14 @@
+# cube2_LLT.plt_commands.txt
+#
+# Usage:
+#  gnuplot < cube2_LLT.plt_commands.txt
+#
+unset key
+set term jpeg
+set output 'cube2_LLT.plt.jpg'
+set size ratio -1
+set xlabel '<--- J --->'
+set ylabel '<--- I --->'
+set title '701472 nonzeros for "cube2_LLT.plt"'
+set timestamp
+plot [y=0:1383] [x=1383:0] 'cube2_LLT.plt_data.txt' with points pt 0
